@@ -1,29 +1,23 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Для чего этот репозиторий? ##
 
-### What is this repository for? ###
+Репозиторий содержит полезные пользовательские расширения, облегчающие постинг новостей и продуктивное обсуждение новостей на информационном медиапортале 1chan.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Известные баги ##
 
-### How do I get set up? ###
+После отправки сообщения скрипты не генерируют новые и приходится перезагружать страницу.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Версии ##
 
-### Contribution guidelines ###
+2017.04 Значительно переработана Автощека - полнословные массивы заменены массивами окончаний и основ слов.
 
-* Writing tests
-* Code review
-* Other guidelines
+## Установка скриптов в браузер ##
 
-### Who do I talk to? ###
+### Firefox ###
+Установка через расширение **[Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/)**
+[Как пользоваться.](https://www.google.ru/search?q=greasemonkey+как+пользоваться)
 
-* Repo owner or admin
-* Other community or team contact
+### Chrome ###
+Установка через расширение **[Tempermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)**
+[Как пользоваться.](https://www.google.ru/search?q=tempermonkey+как+пользоваться)
