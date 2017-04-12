@@ -20,6 +20,6 @@
 [Как пользоваться.](https://www.google.ru/search?q=greasemonkey+как+пользоваться)
 
 ### Chrome ###
-Установка через расширение **[Tempermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)**
+Установка через расширение **[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)**
 
-[Как пользоваться.](https://www.google.ru/search?q=tempermonkey+как+пользоваться)
+[Как пользоваться.](https://www.google.ru/search?q=tampermonkey+как+пользоваться)
