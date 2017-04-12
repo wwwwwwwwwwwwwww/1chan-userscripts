@@ -16,8 +16,10 @@
 
 ### Firefox ###
 Установка через расширение **[Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/)**
+
 [Как пользоваться.](https://www.google.ru/search?q=greasemonkey+как+пользоваться)
 
 ### Chrome ###
 Установка через расширение **[Tempermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)**
+
 [Как пользоваться.](https://www.google.ru/search?q=tempermonkey+как+пользоваться)
