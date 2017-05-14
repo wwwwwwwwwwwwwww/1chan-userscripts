@@ -13,7 +13,6 @@
 // ==/UserScript==
 
 $('a > img[src^=https://i.imgur.com/]').each(function(){
-    console.log(this);
     var imageSRC = $(this).attr('src');
     var googleSearchURL = 'https://www.google.com/searchbyimage?image_url=' + imageSRC;
     $('<a/>')
