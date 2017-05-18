@@ -347,13 +347,20 @@ var copypaste = {
                     'пуховик',    'дебовик',     'оровик'
                 ];
                 var forsovik = $R(tort) + '-' + $R(dedovik);
-                var rnd = $R([0,1]);
-                if (rnd)
+                if ($R([0,1]))
                     forsovik = forsovik.toUpperCase();
-                if (rnd)
-                    forsovik = razmetka(forsovik,'bold');
-                if (rnd)
-                    forsovik = razmetka(forsovik,'big');
+                if ($R([0,1])){
+                    if ($R([0,1]))
+                        forsovik = razmetka(forsovik,'bold');
+                    else
+                        forsovik = razmetka(forsovik,'bold2');
+                }
+                if ($R([0,1])){
+                    if ($R([0,1]))
+                        forsovik = razmetka(forsovik,'big');
+                    else
+                        forsovik = razmetka(forsovik,'big2');
+                }
                 return forsovik;
             },
             'picture':{
