@@ -84,7 +84,7 @@ var thread = {
     },
     'last' : {
         number : function(){ /* Номер последнего поста вообще (ОП-пост или коммент) */
-            return (thread.comments().length>0?thread['last']['comment'].number():thread.NUM);
+            return (thread.comments().length>0?thread['last']['comment'].number():thread.NUMBER());
         },
         replyTo : function(){ /* линк на последний пост */
             return '>>' + thread['last'].number() + "\n";
