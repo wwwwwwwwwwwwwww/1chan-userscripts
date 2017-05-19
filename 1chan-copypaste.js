@@ -81,7 +81,7 @@ var thread = {
     },
     'last' : {
         number : function(){
-            var x = jQuery(".b-comment_b-info a[name]").length>0?jQuery(".b-comment_b-info a[name]").last().text():thread.NUMBER;
+            var x = jQuery(".b-comment_b-info a[name]").length>0?jQuery(".b-comment_b-info a[name]").last().text():thread.NUMBER();
             return x;
         },
         replyTo : function(){
