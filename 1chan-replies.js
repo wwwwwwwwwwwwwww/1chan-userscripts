@@ -270,10 +270,14 @@ var reply = {
                     {sklon:'sh',base:'поскрёбыш'},
                     /* слово оканчивается на велярную согласную */
                     {sklon:'gkh',base:'пиздюк'},
+                    {sklon:'gkh',base:'нищук'},
                     {sklon:'gkh',base:'петух'},
                     {sklon:'gkh',base:'энурезник'},
                     /* слово имеет суффикс "к", перед которым шипящая */
                     {sklon:'shka',base:'дегенератиш'},
+                    /* основа оканчивается на мягкую согласную */
+                    {sklon:'y',base:'чмондел'},
+                    {sklon:'y',base:'чмоньдел'},
                     /* слово имеет окончание "ец" */
                     {sklon:'ets',base:'опущен'},
                     {sklon:'ets',base:'обоссан'}
@@ -282,6 +286,7 @@ var reply = {
                     {sklon:'main',base:'гнид'},
                     {sklon:'gkh', base:'пидорнух'},
                     {sklon:'gkh', base:'чмох'},
+                    {sklon:'sha', base:'хуйлуш'},
                     /* слово имеет суффикс "к" */
                     {sklon:'shka',base:'пидорнуш'},
                     {sklon:'ka',  base:'опущен'},
@@ -304,6 +309,7 @@ var reply = {
                 {sklon:'main',base:'тупорыл'},
                 {sklon:'main',base:'нагрет'},
                 {sklon:'main',base:'ебан'},
+                {sklon:'sh',  base:'нищ'},
                 {sklon:'sh',  base:'проецирующ'}
             ];
 
@@ -321,6 +327,10 @@ var reply = {
                     edCh : { M : {  Im : 'ец', Ro : 'ца',  Da : 'цу'  } },
                     mnCh : { M : {  Im : 'цы', Ro : 'цев', Da : 'цам' } }
                 },
+                y : {
+                    edCh : { M : {  Im : 'ь', Ro : 'я',  Da : 'ю'  } },
+                    mnCh : { M : {  Im : 'и', Ro : 'ей', Da : 'ям' } }
+                },
                 gkh : {
                     edCh : { M : {  Im : '',  Ro : 'а',  Da : 'у'  }, F : {  Im : 'а', Ro : 'и', Da : 'е'  }, N : {  Im : 'о', Ro : 'а',  Da : 'у'  } },
                     mnCh : { M : {  Im : 'и', Ro : 'ов', Da : 'ам' }, F : {  Im : 'и', Ro : '',  Da : 'ам' }, N : {  Im : 'и', Ro : 'ов', Da : 'ам' } }
@@ -328,6 +338,10 @@ var reply = {
                 shka : {
                     edCh : { M : {  Im : 'ка', Ro : 'ки', Da : 'ке'  }, F : {  Im : 'ка', Ro : 'ки', Da : 'ке'  } },
                     mnCh : { M : {  Im : 'ки', Ro : 'ек', Da : 'кам' }, F : {  Im : 'ки', Ro : 'ек', Da : 'кам' } }
+                },
+                sha : {
+                    edCh : { M : {  Im : 'а', Ro : 'и', Da : 'е'  }, F : {  Im : 'а', Ro : 'и', Da : 'е'  } },
+                    mnCh : { M : {  Im : 'и', Ro : '',  Da : 'ам' }, F : {  Im : 'и', Ro : '',  Da : 'ам' } }
                 },
                 ka : {
                     edCh : { M : {  Im : 'ка', Ro : 'ки', Da : 'ке'  }, F : {  Im : 'ка', Ro : 'ки', Da : 'ке'  } },
