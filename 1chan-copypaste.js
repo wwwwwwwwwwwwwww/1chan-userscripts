@@ -47,9 +47,9 @@ function razmetka(string,razmetka){
 var say = {
     helloNews : function(){ return $R(copypaste['helloNews']); },
     kudah     : function(){ return $R(copypaste['kudah']);     },
-    wizik     : function(){ return thread['last'].replyTo() + "\n" + $R(copypaste['wizik']); },
+    wizik     : function(){ return thread['last'].replyTo() + $R(copypaste['wizik']); },
     copro     : function(){ return $R(copypaste['copro']);     },
-    liber     : function(){ return thread['last'].replyTo() + "\n" + $R(copypaste['liber']); },
+    liber     : function(){ return thread['last'].replyTo() + $R(copypaste['liber']); },
     klaxon    : function(){ return $R(copypaste['minus']);     },
     pravda    : function(){ return copypaste.pravda();         },
     cheezy    : function(){ return copypaste.cheezy();         },
