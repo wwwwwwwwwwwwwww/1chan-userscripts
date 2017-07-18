@@ -46,7 +46,7 @@ function razmetka(string,razmetka){
 /* ==/UTILS== */
 
 var say = {
-    forces : function(){ return copypaste.forces(); }
+    forces : function(){ return testing.forces(); }
 }
 
 /* ==BUTTONS== */
