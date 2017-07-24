@@ -14,7 +14,7 @@
 
 2017.05 + [гуглопоиск](https://github.com/wwwwwwwwwwwwwww/1chan-userscripts/blob/master/1chan-google-image-search.js) картинок.
 
-2017.07 Текстовичок вынесен в отдельный тестовый скрипт - там надо всё переделывать.
+2017.07 Текстовичок вынесен в отдельный [тестовый скрипт](https://github.com/wwwwwwwwwwwwwww/1chan-userscripts/blob/master/1chan-testing.js) - там надо всё переделывать.
 
 ## Установка скриптов в браузер ##
 
