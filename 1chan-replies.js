@@ -246,13 +246,19 @@ var reply = {
         '>бредни чмошника\nПонятно.'
     ],
     pidornuha : function() {
-
+        
+        function lastCharFrom(string){
+            var array = string.split('');
+            return array.length - 1;
+        }
+        
         /* Обращение к пидорнухе */
         function pdr(rod, pdj) {
 
             /* тип склонения, основа слова */
             var pidor = {
                 M : [
+                    /* TODO(20170801): надо определять тип склонения функционально, а не указывать явным образом */
                     {sklon:'main',base:'аутист'},
                     {sklon:'main',base:'бичуган'},
                     {sklon:'main',base:'даун'},
